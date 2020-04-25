@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="keywords, or, keyword phrases, go here">
+    <meta name="description" content="registration form">
+    <meta name="author" content="Teresa Ingram">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+<body>
+
+    <header>
+    </header>
+
+    <div class="contact-form">
+        <h1>Book Cafe</h1>
+
+        <form action="#" class="simple-form">
+          <fieldset class="fsmain">
+            <legend>Sign-up for the latest book deals: </legend>
+            <div class="txtb">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="First Name" pattern="[A-Z,a-z]+" autofocus required><br>
+              <div class="errormsg">
+                <p>please check</p>
+              </div>
+            </div>
+            <div class="txtb">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Last Name" required><br>
+              <div class="errormsg">
+                <p>please check</p>
+              </div>
+            </div>
+
+            <div class="txtb">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" placeholder="Phone" pattern="[0]{1}[4]{1}[0-9]{8}" required><br>
+              <div class="errormsg">
+                <p>please check</p>
+              </div>
+            </div>
+
+            <div class="txtb">
+              <label for="mobile">Mobile</label>
+              <input type="text" id="mobile" name="mobile" placeholder="mobile" pattern="\d+" maxlength="12" required><br>
+              <div class="errormsg">
+                <p>please check</p>
+              </div>
+            </div>
+
+            <div class="txtb">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Email" required><br>
+              <div class="errormsg">
+                <p>please check</p>
+              </div>
+            </div>
+
+            <div class="txtb">
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" placeholder="Password" required><br>
+              <div class="errormsg">
+                <p>please check</p>
+              </div>
+            </div>
+
+            <div class="txtb">
+              <label for="favbook">Favourite Book</label>
+              <input type="text" id="favbook" name="favbook" placeholder="Favourite Book" required><br>
+              <div class="errormsg">
+                <p>please check</p>
+              </div>
+            </div>
+
+            <div class="txtb">
+              <label for="age">Age - must be over 18 years to subscribe</label>
+              <input type="number" size="6" id="age" name="age" min="18" max="99" placeholder="Age - must be over 18 years to subscribe" required><br>
+              <div class="errormsg">
+                <p>please check</p>
+              </div>
+            </div>
+
+            <fieldset class="fs2">
+              <legend>Interested In: </legend><br>
+              <input type="radio" id="business" name="business" value="text"> 
+              <label for="business"> Business</label>
+              <input type="radio" id="novels" name="novels" value="text"> 
+              <label for="novels"> Novels</label>
+              <input type="radio" id="general" name="general" value="text">
+              <label for="general">General</label><br> 
+            </fieldset>
+            <br><br>
+
+            <input required type="checkbox" id="checkb" name="checkbox" value="Check">
+            <label for="checkbox">I agree to the terms and conditions</label><br><br>
+            <div class="errormsg">
+              <p>please check</p>
+            </div>
+
+            <input required type="checkbox" id="checkb" name="checkbox" value="Check">
+            <label for="checkbox">I understand I can unsubscribe at any time</label><br><br>
+            <div class="errormsg">
+              <p>please check</p>
+            </div>
+
+            <a class="btn">Send</a>
+
+          </fieldset>
+
+        </form>
+
+    </div>    
+
+    </body>
+
+</html>
